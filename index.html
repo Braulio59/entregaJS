@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Pizzería</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+ 
+</head>
+<body>
+  <section class="main">
+    <form class="ordenador" id="pizzaOrderForm">
+      <label class="seleccion" for="pizzaId">Selección de Pizza:</label>
+      <input class="input" id="pizzaSelection" name="pizzaId" type="number" min="0"/>
+      <button class="btn__pedir"><i class="fa-solid fa-pizza-slice"></i>   Pedir Pizza</button>
+    </form>
+    <h2 class="pizzas" id="pizzaName"></h2>
+    <h4 class="precios" id="pizzaPrice"></h4>
+  </section>
+  <script src='main.js'></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=League+Gothic&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: crimson;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+} 
+
+.ordenador {
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
+
+.seleccion {
+    margin-bottom: 25px;
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn__pedir {
+    font-family: "Lato",sans-serif; 
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 5px;
+    border-radius: 5px; 
+    height: 25px;
+} 
+
+.pizzas {
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+} 
+
+.precios {
+    font-family: "Lato",sans-serif;
+} 
+
+.btn__pedir:hover {
+    color: rgb(137, 92, 92) !important;
+    box-shadow: 0 4px 16px rgb(71, 62, 62);
+    transition: all 0.3s ease;
+  } 
+
+  .input {
+    border-radius: 3px;
+    border: 5px; 
+    height: 25px;
+  }
