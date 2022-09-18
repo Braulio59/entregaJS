@@ -16,8 +16,15 @@
       <input class="input" id="pizzaSelection" name="pizzaId" type="number" min="0"/>
       <button class="btn__pedir"><i class="fa-solid fa-pizza-slice"></i>   Pedir Pizza</button>
     </form>
-    <h2 class="pizzas" id="pizzaName"></h2>
-    <h4 class="precios" id="pizzaPrice"></h4>
+    <div class="card__container">
+      <img src="" alt="" style="display: none;" id="pizza_photo"/> 
+      <h2 class="pizzas" id="pizzaName"></h2>
+      <h4 class="precios" id="pizzaPrice"></h4>
+    </div>
+    <div class ="error" style="display: none;" id="errorMessage">
+      <img src ="assets\\triangle-exclamation-solid.svg"/>
+      <span class="error__mensaje" id="error_mensaje"></span> 
+    </div>
   </section>
   <script src='main.js'></script>
 </body>
